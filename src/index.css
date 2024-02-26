@@ -8,7 +8,7 @@
   }
   
   ::-webkit-scrollbar-track {
-    background-color: #474646; 
+    background-color: #333232; 
   }
   
   ::-webkit-scrollbar-thumb {
@@ -17,7 +17,7 @@
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background-color: #c51f13; 
+    background-color: #1372c5; 
   }
 
   .card {

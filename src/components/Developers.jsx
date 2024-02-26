@@ -3,12 +3,19 @@ import {
   IoGlobeOutline,
   IoHome,
   IoLogoGithub,
+  IoLogoInstagram,
   IoLogoLinkedin,
 } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { Tooltip } from "react-tooltip";
 import pfp from "../../public/images/pfp.jpg";
 import FlyInOnScroll from "./FlyInOnScroll";
+import pfp1 from "../../public/images/prateesh.jpg"
+import pfp2 from "../../public/images/suhas.jpeg"
+import pfp3 from "../../public/images/pratham.jpeg"
+import pfp4 from "../../public/images/kavya.jpeg"
+import pfp5 from "../../public/images/rohan.jpeg"
+
 
 const Developers = () => {
   const developers = [
@@ -16,55 +23,55 @@ const Developers = () => {
       id: 1,
       name: "Prateeh Sulikeri",
       role: "Lead Developer",
-      imageUrl: pfp,
+      imageUrl: pfp1,
       socials: {
-        github: "https://github.com/johndoe",
-        linkedin: "https://linkedin.com/in/johndoe",
-        twitter: "https://twitter.com/johndoe",
+        github: "https://github.com/Prateesh-Sulikeri",
+        linkedin: "https://www.linkedin.com/in/prateesh-sulikeri-380986227/",
+        instagram: "https://www.instagram.com/prateesh07?igsh=MTQ5bG92OW52ODV3eA%3D%3D",
       },
     },
     {
       id: 2,
       name: "Suhas Jadav",
       role: "Developer",
-      imageUrl: pfp,
+      imageUrl: pfp2,
       socials: {
-        github: "https://github.com/janesmith",
-        linkedin: "https://linkedin.com/in/janesmith",
-        twitter: "https://twitter.com/janesmith",
+        github: "https://github.com/Suhasj1231",
+        linkedin: " www.linkedin.com/in/suhas--jadhav",
+        instagram: "https://www.instagram.com/_suhas_j?igsh=bTA2amF1NnNtc280",
       },
     },
     {
       id: 3,
       name: "Pratham Kadapatti",
       role: "Designer",
-      imageUrl: pfp,
+      imageUrl: pfp3,
       socials: {
-        github: "https://github.com/janesmith",
-        linkedin: "https://linkedin.com/in/janesmith",
-        twitter: "https://twitter.com/janesmith",
+        github: "https://github.com/PRATHAM-KADAPATTI",
+        linkedin: "https://linkedin.com/in/pratham-kadapatti-682985227",
+        instagram: "https://instagram.com/prathamkadapatti",
       },
     },
     {
       id: 4,
       name: "S Kavya",
       role: "Designer",
-      imageUrl: pfp,
+      imageUrl: pfp4,
       socials: {
-        github: "https://github.com/janesmith",
-        linkedin: "https://linkedin.com/in/janesmith",
-        twitter: "https://twitter.com/janesmith",
+        github: " https://github.com/kavyas31415",
+        linkedin: "https://www.linkedin.com/in/kavya-sunil-306a11226/",
+        instagram: "https://www.instagram.com/kavyameghamalhar?igsh=Y3J5MjNrOG9nMTQ3",
       },
     },
     {
       id: 5,
       name: "Rohan S P",
       role: "Designer",
-      imageUrl: pfp,
+      imageUrl: pfp5,
       socials: {
-        github: "https://github.com/janesmith",
-        linkedin: "https://linkedin.com/in/janesmith",
-        twitter: "https://twitter.com/janesmith",
+        github: "https://github.com/Rohanpattanashetti",
+        linkedin: "https://www.linkedin.com/in/rohan-pattanshetti-04bb84275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        instagram: "https://www.instagram.com/rohan.s.p.07?igsh=MTI3OHRtNjVxc3ByeA%3D%3D&utm_source=qr",
       },
     },
   ];
@@ -146,12 +153,12 @@ const Developers = () => {
                 <IoLogoLinkedin className="text-2xl" />
               </a>
               <a
-                href={developer.socials.twitter}
+                href={developer.socials.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-700"
               >
-                <IoGlobeOutline className="text-2xl" />
+                <IoLogoInstagram  className="text-2xl" />
               </a>
             </div>
           </div>

@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link
             to="/"
             onClick={() => scrollToSection("home")}
-            className={`text-2xl font-bangers ${
+            className={`text-2xl font-bangers text-gray-700 ${
               location.pathname === "/" && ""
             }`}
           >
@@ -54,7 +54,7 @@ const Navbar = () => {
           <Link
             to="/"
             onClick={() => scrollToSection("events")}
-            className={` text-2xl font-bangers ${
+            className={` text-2xl font-bangers text-gray-700 ${
               location.pathname === "/" && ""
             }`}
           >
@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link
             to="/"
             onClick={() => scrollToSection("about")}
-            className={` text-2xl font-bangers ${
+            className={` text-2xl font-bangers text-gray-700 ${
               location.pathname === "/" && ""
             }`}
           >
@@ -71,7 +71,7 @@ const Navbar = () => {
           </Link>
           <Link
             to={`/developers`}
-            className={` text-2xl font-bangers ${
+            className={` text-2xl font-bangers text-gray-700 ${
               location.pathname === "/developers" && ""
             }`}
           >
@@ -79,7 +79,7 @@ const Navbar = () => {
           </Link>
           <button
             onClick={() => scrollToSection("footer")}
-            className=" text-2xl font-bangers"
+            className=" text-2xl font-bangers text-gray-700"
           >
             Contact
           </button>
@@ -100,33 +100,33 @@ const Navbar = () => {
             <Link
               to="/"
               onClick={() => scrollToSection("home")}
-              className="py-4 text-2xl font-bangers"
+              className="py-4 text-2xl font-bangers text-gray-700"
             >
               Home
             </Link>
             <Link
               to="/"
               onClick={() => scrollToSection("events")}
-              className="py-4 text-2xl font-bangers"
+              className="py-4 text-2xl font-bangers text-gray-700"
             >
               Events
             </Link>
             <Link
               to="/"
               onClick={() => scrollToSection("about")}
-              className="py-4 text-2xl font-bangers"
+              className="py-4 text-2xl font-bangers text-gray-700"
             >
               About
             </Link>
             <Link
               to={`/developers`}
-              className="py-4 text-2xl font-bangers"
+              className="py-4 text-2xl font-bangers text-gray-700"
             >
               Developers
             </Link>
             <button
               onClick={() => scrollToSection("footer")}
-              className="py-4 text-2xl font-bangers"
+              className="py-4 text-2xl font-bangers text-gray-700"
             >
               Contact
             </button>

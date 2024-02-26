@@ -11,7 +11,7 @@ const FlyInOnScroll = ({ children }) => {
       if (inView) {
         console.log("Element is in view!");
       }
-    }, 200); // Delay by 200 milliseconds (adjust as needed)
+    }, 300); // Delay by 200 milliseconds (adjust as needed)
   
     return () => clearTimeout(timeoutId);
   }, [inView]);
@@ -22,7 +22,7 @@ const FlyInOnScroll = ({ children }) => {
       ref={ref}
       className="fly-in-on-scroll" // Add Tailwind class for styling
       whileInView={{ opacity: 1, y: 0 }}
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 50 }}
     >
       {children}
     </motion.div>

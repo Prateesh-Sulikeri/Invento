@@ -17,32 +17,31 @@ const Calendar = () => {
     >
       <FlyInOnScroll>
         <h1
-          className="text-5xl font-semibold text-center mb-[5%]"
+          className="text-5xl text-black font-semibold text-center mb-[5%]"
           style={{
             WebkitTextStrokeWidth: "0.2px",
-            WebkitTextStrokeColor: "black",
+            WebkitTextStrokeColor: "white",
           }}
         >
           Mark Your Calendar
         </h1>
       </FlyInOnScroll>
 
-      <FlyInOnScroll>
         <div className="md:flex justify-between gap-4">
           <div className="relative rounded-lg bgdate flex-1 md:mx-16">
             <img
               src={date1Image}
               alt="Date"
               className="w-full h-full rounded-t-lg m-0"
-            />
+              />
             <div className="absolute bottom-0 left-0 right-0 p-4">
-              <p className="text-2xl text-black mx-16 mb-10 sm : mb-14">
+              <p className="text-2xl text-black mx-16 mb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Impedit saepe{" "}
               </p>
             </div>
           </div>
-
+          
           <div className="relative rounded-lg bgdate flex-1 md:mx-16">
             <img
               src={date2Image}
@@ -50,12 +49,13 @@ const Calendar = () => {
               className="w-full h-full rounded-t-lg m-0"
             />
             <div className="absolute bottom-0 left-0 right-0 p-4">
-              <p className="text-2xl text-black mx-16 mb-10 sm : mb-14">
+              <p className="text-2xl text-black mx-16 mb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Impedit saepe
               </p>
             </div>
           </div>
+
           <div className="relative rounded-lg bgdate flex-1 md:mx-16">
             <img
               src={date3Image}
@@ -63,14 +63,14 @@ const Calendar = () => {
               className="w-full h-full rounded-t-lg m-0"
             />
             <div className="absolute bottom-0 left-0 right-0 p-4">
-              <p className="text-2xl text-black mx-16 mb-10 sm : mb-14">
+              <p className="text-2xl text-black mx-16 mb-10">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Impedit saepe
               </p>
             </div>
           </div>
+          
         </div>
-      </FlyInOnScroll>
     </div>
   );
 };

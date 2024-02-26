@@ -29,10 +29,77 @@
   }
   
   .animate-twinkle-initial {
-    animation: twinkle-initial 3s infinite alternate; /* Alternate animation added */
+    animation: twinkle-initial 1.5s infinite alternate; /* Alternate animation added */
   }
   
   .animate-twinkle-alternate {
-    animation: twinkle-alternate 3s infinite alternate; /* Alternate animation added */
+    animation: twinkle-alternate 1.5s infinite alternate; /* Alternate animation added */
   }
   
+/* CSS for expand/contract animation */
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes contract {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply animation to .zap-animate class */
+.zap-animate {
+  animation-duration: 2s; /* Adjust duration as needed */
+  animation-fill-mode: both;
+  animation-iteration-count: infinite; /* Make the animation infinite */
+}
+
+/* Expand animation */
+.zap-expand {
+  animation-name: expand;
+}
+
+/* Contract animation */
+.zap-contract {
+  animation-name: contract;
+}
+
+/* CSS for wiggle animation */
+@keyframes wiggle {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}
+
+/* Apply animation to .wiggle-animate class */
+.wiggle-animate {
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite; /* Make the animation infinite */
+  animation-timing-function: ease-in-out; /* Smooth animation */
+}
+
+/* Apply animation to .amazing-image */
+.amazing-image {
+  width: 100px; /* Adjust width as needed */
+  animation-name: wiggle;
+}
