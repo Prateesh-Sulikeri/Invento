@@ -25,25 +25,25 @@ function EventDetails({ eventsByType }) {
       }}
     >
       <div className="container mx-auto py-16 px-4">
-          <Link
-            to="/"
-            data-tooltip-id="my-tooltip"
-            data-tooltip-content="Back To Home!!"
-            data-tooltip-place="bottom"
-            className="fixed fixed-button flex items-center justify-center w-12 h-12 rounded-full bg-blue-900 text-white shadow-sm hover:shadow-md transition-all duration-300"
-            style={{
-              backgroundImage: "url(../../public/images/rbbtn.jpg)",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              right: "4rem",
-              top: "4rem",
-              zIndex: "9999", // Ensure the link stays on top
-            }}
-          >
-            <IoHome className="text-xl" />
-            <Tooltip id="my-tooltip" />
-          </Link>
+        <Link
+          to="/"
+          data-tooltip-id="my-tooltip"
+          data-tooltip-content="Back To Home!!"
+          data-tooltip-place="bottom"
+          className="fixed fixed-button flex items-center justify-center w-12 h-12 rounded-full bg-blue-900 text-white shadow-sm hover:shadow-md transition-all duration-300"
+          style={{
+            backgroundImage: "url(../../public/images/rbbtn.jpg)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            right: "4rem",
+            top: "4rem",
+            zIndex: "9999", // Ensure the link stays on top
+          }}
+        >
+          <IoHome className="text-xl" />
+          <Tooltip id="my-tooltip" />
+        </Link>
 
         <FlyInOnScroll>
           <h1 className="text-6xl font-bangers text-center mb-8">
@@ -72,20 +72,29 @@ function EventDetails({ eventsByType }) {
                   className="w-full rounded-lg shadow-md"
                 />
               </div>
-              <div className="w-full md:w-1/2 pl-6 md:pl-4">
-                <h3 className="text-5xl font-medium mb-4 font-bangers">
+              <div className="w-full md:w-1/2 flex flex-col items-center md:items-start md:pr-6 md:pl-4">
+                <h3 className="text-4xl font-medium mb-4 font-bangers text-center md:text-left">
                   {event.name}
                 </h3>
-                <p className=" mb-4 text-2xl font-oregano">
+                <p className=" mb-4 text-2xl font-oregano text-center md:text-left">
                   {event.description}
                 </p>
-                <a
-                  href={event.registrationLink}
-                  target="_blank"
-                  className="button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                >
-                  Register Now
-                </a>
+                <div className="flex justify-center md:justify-start">
+                  <a
+                    href={event.registrationLink}
+                    target="_blank"
+                    className="button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4"
+                  >
+                    Register Now
+                  </a>
+                  <a
+                    href={event.knowMoreLink}
+                    target="_blank"
+                    className="button bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                  >
+                    Know More
+                  </a>
+                </div>
               </div>
             </div>
           </FlyInOnScroll>

@@ -1,5 +1,5 @@
 import React from "react";
-import ruleBook from "../../public/images/ruleBook3.png";
+import ruleBook from "../../public/images/rulebook6.png";
 import curvedArrow from "../../public/images/curvedArrow.png";
 import pdf from "../../public/pdf/rulebook.pdf";
 import FlyInOnScroll from "./FlyInOnScroll";
@@ -22,7 +22,7 @@ const Rulebook = () => {
             <img
               src={ruleBook}
               alt="Rulebook"
-              className="mx-auto rounded-lg md:pt-0 pt-12 md:pl-20"
+              className="mx-auto rounded-lg md:pt-0 pt-12 md:pl-32"
               style={{ width: "100%" }}
             />
             <img
@@ -34,7 +34,7 @@ const Rulebook = () => {
           </FlyInOnScroll>
 
           <p
-            className="absolute top-0 right-0 md:hidden text-lg font-bold pl-8 mr-4 font-gorditas"
+            className="absolute top-0 right-0 md:hidden text-lg font-bold pl-8 mr-4 font-marker"
             style={{ paddingRight: "20px" }}
           >
             Download the Rulebook
@@ -61,7 +61,7 @@ const Rulebook = () => {
               <a
                 href={pdf}
                 target="_blank"
-                className={`mr-4 py-2 px-4 bg-black text-white rounded-lg border font-oregano border-blue-400 focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105`}
+                className={`mr-4 py-2 px-4 bg-sky-100 rounded-lg border-2  font-oregano border-purple-500 focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105`}
               >
                 Download Rulebook
               </a>
