@@ -22,7 +22,7 @@ const FlyInOnScroll = ({ children }) => {
       ref={ref}
       className="fly-in-on-scroll" // Add Tailwind class for styling
       whileInView={{ opacity: 1, y: 0 }}
-      initial={{ opacity: 0, y: 50 }}
+      initial={{ opacity: 0, y: 30 }}
     >
       {children}
     </motion.div>

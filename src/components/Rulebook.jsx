@@ -50,7 +50,7 @@ const Rulebook = () => {
 
           <FlyInOnScroll>
             <p className="text-2xl text-left text-gray-700 mb-6 hidden md:block font-oregano">
-            Dive into the 📜 Rulebook, where the laws of our cosmic competition are penned with the ✨ ink of enchantment! Unravel the secrets, wield your talents, and let the pages of greatness turn with every spellbinding rule! 🌟
+            Comic Crusaders, listen up! Before you unleash your inner hero, be sure to brush up on the official INVENTO Rulebook. Familiarize yourself with the specific rules for each contest you enter, whether you choose to fight solo or assemble a superpowered team. Remember, respect is our superpower - treat everyone with kindness and embrace fair play. Now go forth, create comics that will SHAZAM! the world, and stay tuned for more details on specific contest rules and deadlines!
             </p>
           </FlyInOnScroll>
 

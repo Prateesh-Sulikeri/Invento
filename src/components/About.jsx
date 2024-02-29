@@ -16,14 +16,12 @@ const About = () => {
         </FlyInOnScroll>
         <FlyInOnScroll>
           <p className="text-lg md:text-xl py-4 md:py-10 font-oregano">
-            🚀 Welcome to the extraordinary world of Invento! 🎉 Get ready for a
-            colossal clash of creativity, athleticism, melody, and groove! The
-            grand event is bursting with competitions that will make your
-            talents soar higher than a superhero in a comic strip! 🎨✨ Join
-            forces with other aspiring artists, fitness fanatics, musical
-            maestros, and dance dynamos as we bring the pages of excitement to
-            life! The canvas is set for epic battles, rhythmic beats, and moves
-            that defy gravity! 🕺🎶
+            INVENTO, the legendary inter-collegiate fest, presents its Comic
+            Themed Edition! Calling all comic fans, artists, and storytellers!
+            Battle it out in creative contests and workshops. Show off your
+            artistic chops and storytelling skills. Win the ultimate prize:
+            Overall Champions! Get ready to be inspired, inked, and victorious!
+            Details coming soon!
           </p>
         </FlyInOnScroll>
       </div>

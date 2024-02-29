@@ -20,8 +20,10 @@ function EventDetails({ eventsByType }) {
     <div
       className="comic-page"
       style={{
+        // backgroundImage: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(${bg}),
         backgroundImage: `linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(${bg})`,
-        backgroundRepeat: "repeat-y",
+
+        backgroundRepeat: "repeat-y"
       }}
     >
       <div className="container mx-auto py-16 px-4">
@@ -48,7 +50,7 @@ function EventDetails({ eventsByType }) {
         <FlyInOnScroll>
           <h1 className="text-6xl font-bangers text-center mb-8">
             <span className="speech-bubble font-Bangers">
-              {eventType} Events
+              {eventType}
             </span>
           </h1>
         </FlyInOnScroll>
@@ -56,7 +58,7 @@ function EventDetails({ eventsByType }) {
           <FlyInOnScroll key={event.name}>
             <div
               key={event.name}
-              className={`comic-panel flex flex-col mb-12 ${
+              className={`comic-panel flex flex-col-reverse mb-12 ${
                 index % 2 === 0 ? "md:flex-row-reverse" : "md:flex-row"
               }`}
               style={{ alignItems: "center", gap: "30px" }}
@@ -83,14 +85,14 @@ function EventDetails({ eventsByType }) {
                   <a
                     href={event.registrationLink}
                     target="_blank"
-                    className="button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4"
-                  >
+                    className={`mr-4 py-2 px-4 bg-black text-white rounded-lg border border-red-400 font-oregano focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105 hover:font-semibold`}
+                    >
                     Register Now
                   </a>
                   <a
                     href={event.knowMoreLink}
                     target="_blank"
-                    className="button bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                    className={`mr-4 py-2 px-4 bg-white rounded-lg border font-semibold border-blue-400 font-oregano focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105 hover:font-semibold`}
                   >
                     Know More
                   </a>
