@@ -1,3 +1,5 @@
+// import nukkad_natak from "../public/image"
+
 const eventsByType = {
   "Title Events": {
     image: "",
@@ -41,7 +43,7 @@ const eventsByType = {
     events: [
       {
         name: "Voice the change (nukkad natak)",
-        image: "../../public/nukkad_natak.png",
+        image: "../public/nukkad_natak.png",
         description: "Hello drama folks, join us to convert the enthusiasm of acting into actions louder and voices echo with purpose! You also have the unique opportunity to harness the power of theatre for social change. So here's your time to give an electrifying showcase to redefine the boundaries of storytelling beyond just words and thoughts.",
         registrationLink: "https://forms.gle/AFY7aYzfZ3B6U1iF9",
       },
