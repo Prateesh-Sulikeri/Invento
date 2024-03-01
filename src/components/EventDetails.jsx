@@ -7,8 +7,7 @@ import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
 import "./eventDetails.css";
 import FlyInOnScroll from "./FlyInOnScroll";
-import pdf from "../../public/pdf/rulebook.pdf";
-
+// import pdf from "../../public/pdf/rulebook.pdf"; // Commented out the PDF import
 
 function EventDetails({ eventsByType }) {
   const { eventType } = useParams();
@@ -18,13 +17,15 @@ function EventDetails({ eventsByType }) {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleKnowMoreClick = () => {
+    alert("More information will be available soon.");
+  };
+
   return (
     <div
       className="comic-page"
       style={{
-        // backgroundImage: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(${bg}),
         backgroundImage: `linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(${bg})`,
-
         backgroundRepeat: "repeat-y"
       }}
     >
@@ -91,13 +92,13 @@ function EventDetails({ eventsByType }) {
                     >
                     Register Now
                   </a>
-                  <a
-                    href={pdf}
-                    target="_blank"
+                  {/* Replaced the PDF link with a button that triggers an alert */}
+                  <button
+                    onClick={handleKnowMoreClick}
                     className={`mr-4 py-2 px-4 bg-white rounded-lg border font-semibold border-blue-400 font-oregano focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105 hover:font-semibold`}
                   >
                     Know More
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>

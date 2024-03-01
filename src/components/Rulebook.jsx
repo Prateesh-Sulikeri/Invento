@@ -1,13 +1,17 @@
 import React from "react";
 import ruleBook from "../../public/images/rulebook6.png";
 import curvedArrow from "../../public/images/curvedArrow.png";
-import pdf from "../../public/pdf/rulebook.pdf";
 import FlyInOnScroll from "./FlyInOnScroll";
 import zap from "../../public/images/zap1.png";
 import amazing from "../../public/images/Amazing.png";
 import "./components.css";
+// import pdf from "../../public/pdf/rulebook.pdf";
 
 const Rulebook = () => {
+  const handleDownloadClick = () => {
+    alert("The rulebook will be back soon.");
+  };
+
   return (
     <section id="rulebook" className="py-12 mb-8 relative">
       <div className="container mx-auto px-4 md:px-12 flex flex-col md:flex-row items-center relative">
@@ -37,7 +41,7 @@ const Rulebook = () => {
             className="absolute top-0 right-0 md:hidden text-lg font-bold pl-8 mr-4 font-marker"
             style={{ paddingRight: "20px" }}
           >
-            Download the Rulebook
+            Rulebook temporarily unavailable
           </p>
         </div>
 
@@ -58,13 +62,12 @@ const Rulebook = () => {
             {" "}
             {/* Adjusted justify-center for mobile */}
             <FlyInOnScroll>
-              <a
-                href={pdf}
-                target="_blank"
+              <button
+                onClick={handleDownloadClick}
                 className={`mr-4 py-2 px-4 bg-sky-100 rounded-lg border-2  font-oregano border-purple-500 focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105`}
               >
                 Download Rulebook
-              </a>
+              </button>
             </FlyInOnScroll>
           </div>
         </div>
