@@ -384,36 +384,6 @@ const eventsByType = {
       },
     ],
   },
-  "Technical Events": {
-    image: tech_events,
-    tag: ["All", "Technical"],
-    events: [
-      {
-        name: "Trials of lore (mythical quiz)",
-        image: quiz,
-        description: "Step into the realm of legends and lore with our odyssey! Unravel the mysteries of ancient civilizations, traverse through mythical landscapes, and test your knowledge of gods, monsters, and heroes. Embark on an epic journey of discovery and challenge your friends to see who reigns supreme in the realm of myths and legends!",
-        registrationLink: "https://forms.gle/fZXkz5LoTyeAp2zY7",
-      },
-      {
-        name: "Riddler’s Questionnaire (thematic quiz)",
-        image: quiz2,
-        description: "Dive into a world of vibrant characters, thrilling adventures, and epic battles with Riddler’s Questionnaire ! Test your knowledge of iconic series, legendary heroes, and unforgettable storylines. Whether you're a seasoned otaku or just starting your journey, this quiz is your chance to prove your fandom prowess and connect with fellow enthusiasts.",
-        registrationLink: "https://forms.gle/1p4hS4gTswfheQiV7",
-      },
-      {
-        name: "The sokovia accords (debate)",
-        image: debate,
-        description: "In the arena of intellect and persuasion, where words wield power and ideas collide, prepare to challenge, defend, and captivate as you navigate the realms of debate. Let your voices ring loud and your arguments resonate – for here, minds are sharpened, and perspectives shifted.        ",
-        registrationLink: "https://forms.gle/PpMxhUWZrLduPzAv5",
-      },
-      {
-        name: "The daily bugle face-off (mock-press)",
-        image: mock,
-        description: "Have you ever pondered what it's like to dodge paparazzi flashbulbs, ducking and diving through the limelight as a Hollywood star, a political juggernaut, or a sports sensation? Well, prepare to slip into these larger-than-life personas with a comical twist in this extravaganza! But beware, as you'll soon find yourself in the hot seat, fielding absurd questions from the relentless press corps. Are you up for the challenge, ready to turn the tables and steal the show? ",
-        registrationLink: "https://forms.gle/yGydJ36sQDFtVdEY7",
-      },
-    ],
-  },
   "Fashion Events": {
     image: fashion_events,
     tag: ["All", "Cultural + fun"],

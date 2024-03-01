@@ -23,6 +23,7 @@ const Footer = () => {
             <p className="font-oregano text-center ">Dr. M.S. Sheshgiri College of Engineering and Technology</p>
             <p className="font-oregano text-center ">Sumant Gangannavar: 9901878393</p>
             <p className="font-oregano text-center ">Rohan Bhavi: 9663709696</p>
+            <p className="font-oregano text-center ">Sakshi  Gudaraddi: 8088636360</p>
             <p className="font-oregano text-center">Email: invento2k24@gmail.com</p>
           </div>
 
