@@ -41,6 +41,11 @@ import Performing_arts from "../public/images/Performing_arts.png"
 import fashion_events from "../public/images/fashion_events.png"
 import tech_events from "../public/images/tech_events.png"
 import sports2 from "../public/images/sports2.png"
+import finearts1 from "../public/images/finearts1.png"
+import finearts2 from "../public/images/finearts2.png"
+import finearts3 from "../public/images/finearts3.jpg"
+import finearts4 from "../public/images/finearts4.png"
+import finearts5 from "../public/images/finearts5.png"
 
 const eventsByType = {
   "Title Events": {
@@ -121,32 +126,32 @@ const eventsByType = {
     events: [
       {
         name: "Canvas crusade",
-        image: "",
-        description: "",
+        image: finearts1,
+        description: "Imagine stepping into the vivid palette of Claude Monet, the master of Impressionism. Your mission: infuse Monet's dreamy landscapes with the action-packed spirit of comics. Picture Spider-Man swinging through water lilies or Wonder Woman facing off against vibrant sunflowers. Embark on a creative quest in Canvas Crusade, a painting competition where the canvas becomes your battleground for artistic supremacy! Get ready to redefine the boundaries of creativity.",
         registrationLink: "https://forms.gle/ttEvnjhqdaWUfrBa8",
       },
       {
         name: "Comic kaleidoscope",
-        image: "",
-        description: "",
+        image: finearts2,
+        description: "Welcome to Comic Kaleidoscope; Crafting Characters, Weaving Worlds, where the realms of imagination and storytelling collide! This extraordinary event unfolds in two captivating rounds, inviting you to shape characters and narratives that will dance off the pages of your very own comic universe.",
         registrationLink: "https://forms.gle/MSy1bo6KXYnWwhqSA",
       },
       {
         name: "Trash bin bonanza!",
-        image: "",
-        description: "",
+        image: finearts3,
+        description: "Join us in a celebration of creativity and sustainability at Trash Bin Bonanza, where discarded items get a second chance to shine! Unleash your resourcefulness in this unique event that challenges you to turn trash into treasures, giving a new life and purpose to the overlooked.",
         registrationLink: "https://forms.gle/94MUVb1JUb85c1xQ7",
       },
       {
         name: "Super Suit showoff (solo-fashion)",
-        image: "",
-        description: "",
+        image: finearts4,
+        description: "Step into the limelight and let your unique style steal the show at the Vogue Vanguard Solo Fashion Extravaganza. This exclusive event calls upon participants to ignite their creativity and celebrate individuality through the art of fashion.",
         registrationLink: "https://forms.gle/WSpQqpMxJ3UhCqHU7",
       },
       {
         name: "Avenger’s Ensemble (group fashion)",
-        image: "",
-        description: "",
+        image: finearts5,
+        description: "Hey fashionistas! It's time to unleash the collective style storm and showcase your group's epic fashion saga. Can you turn up the chic-o-meter and bring the laughs? We want to see how well you can slay the runway as a dynamic squad. Strut, pose, and sprinkle in some comical flair – after all, fashion is about having fun too! Gather your glam gang and get ready. This is not just a runway, it's your comedy and couture extravaganza!",
         registrationLink: "https://forms.gle/E7LmnCd9rvAj8rXv6",
       },
     ],

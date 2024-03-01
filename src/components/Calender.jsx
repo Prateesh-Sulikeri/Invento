@@ -39,7 +39,7 @@ const Calendar = () => {
           />
           <div className="absolute bottom-0 left-0 mx-10 right-0 p-4">
             <p className="text-xl text-black mx-2 mb-10  sm:mb-16">
-            Characters from various time periods come together to solve a mystery that spans history.
+            Various Heros from different dimensions join together to triumph over challenges and gain victory
             </p>
           </div>
         </div>
@@ -52,8 +52,7 @@ const Calendar = () => {
           />
           <div className="absolute bottom-0 left-0 mx-10 right-0 p-4">
             <p className="text-xl text-black mx-2 mb-10  sm:mb-14"> 
-            From superheroes to anime icons,witness the creativity and dedication of cosplayers at its finest.
-            </p>
+            From superheroes to anime icons,explore the creativity and ingenuity of all arenas            </p>
           </div>
         </div>
 
@@ -64,9 +63,8 @@ const Calendar = () => {
             className="w-full h-full rounded-t-lg m-0"
           />
           <div className="absolute bottom-0 left-0 mx-10 right-0 p-4 ">
-            <p className="text-xl text-black mx-2 mb-10  sm:mb-14">
-            Witness the comic culture triumph unfold amidst a backdrop of boundless joy and splendor!
-            </p>
+            <p className="text-lg text-black mx-2 mb-10  sm:mb-14">
+            Witness the comic culture unravel, as battles are fought in all fields across all timelines, ending is a majestic celebration            </p>
           </div>
         </div>
 

@@ -75,23 +75,25 @@ const Events = () => {
       <div className="flex justify-center py-4 mb-4">
         {/* Selection tabs */}
         {[
-          { tag: "All", icon: <IoEarthSharp /> },
-          { tag: "Technical", icon: <IoBulbSharp /> },
-          { tag: "Cultural + fun", icon: <IoFlameSharp /> },
-        ].map(({ tag, icon }) => (
-          <FlyInOnScroll key={tag}>
-            <button
-              key={tag}
-              className={`mr-4 py-2 px-4 bg-black text-white rounded-lg border border-blue-400 focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105 hover:font-semibold`}
-              style={{ minWidth: "100px", fontFamily: "Oregano" }}
-              onClick={() => setSelectedTag(tag)}
-            >
-              <span className="mr-2">{tag}</span>{" "}
-              {/* Added margin to the icon */}
-              <span>{icon}</span>
-            </button>
-          </FlyInOnScroll>
-        ))}
+  { tag: "All", icon: <IoEarthSharp /> },
+  { tag: "Technical", icon: <IoBulbSharp /> },
+  { tag: "Cultural + fun", icon: <IoFlameSharp /> },
+].map(({ tag, icon }) => (
+  <FlyInOnScroll key={tag}>
+    <button
+      key={tag}
+      className={`mr-4 py-2 px-4 bg-black text-white rounded-lg border border-blue-400 focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105 hover:font-semibold ${
+        selectedTag === tag ? 'bg-orange-600' : ''
+      }`}
+      style={{ minWidth: "100px", fontFamily: "Oregano" }}
+      onClick={() => setSelectedTag(tag)}
+    >
+      <span className="mr-2">{tag}</span>
+      <span>{icon}</span>
+    </button>
+  </FlyInOnScroll>
+))}
+
       </div>
       <FlyInOnScroll>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
