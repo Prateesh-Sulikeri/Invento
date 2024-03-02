@@ -21,7 +21,7 @@ const Developers = () => {
   const developers = [
     {
       id: 1,
-      name: "Prateeh Sulikeri",
+      name: "Prateesh Sulikeri",
       role: "Lead Developer",
       imageUrl: pfp1,
       socials: {
