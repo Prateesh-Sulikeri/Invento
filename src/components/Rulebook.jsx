@@ -41,7 +41,7 @@ const Rulebook = () => {
             className="absolute top-0 right-0 md:hidden text-lg font-bold pl-8 mr-4 font-marker"
             style={{ paddingRight: "20px" }}
           >
-            Rulebook temporarily unavailable
+            Download the Rulebook 
           </p>
         </div>
 
