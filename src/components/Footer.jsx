@@ -23,8 +23,10 @@ const Footer = () => {
               <h3 className="text-2xl font-bangers mb-4">CONTACT</h3>
               <p className="font-oregano">KLE Technological University</p>
               <p className="font-oregano">Dr. M.S. Sheshgiri College of Engineering and Technology</p>
-              <p className="font-oregano">Name: 9876543210</p>
-              <p className="font-oregano">Email: <a href="mailto:example@example.com" className="underline">example@example.com</a></p>
+              <p className="font-oregano">Sumant Gangannavar: 9901878393</p>
+              <p className="font-oregano">Rohan Bhavi: 9663709696</p>
+              <p className="font-oregano">Sakshi Gudaraddi: 80886 36360</p>
+              <p className="font-oregano">Email: invento2k24@gmail.com</p>
             </div>
 
             <div className="col-span-1 mt-6  md:mt-0">
