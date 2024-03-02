@@ -39,13 +39,13 @@ import duet from "../public/images/duet.png"
 import group_dance from "../public/images/group_dance.png"
 import Performing_arts from "../public/images/Performing_arts.png"
 import fashion_events from "../public/images/fashion_events.png"
-import tech_events from "../public/images/tech_events.png"
 import sports2 from "../public/images/sports2.png"
 import finearts1 from "../public/images/finearts1.png"
 import finearts2 from "../public/images/finearts2.png"
 import finearts3 from "../public/images/finearts3.jpg"
 import finearts4 from "../public/images/finearts4.png"
 import finearts5 from "../public/images/finearts5.png"
+import avengers from "../public/images/avengers.png"
 
 const eventsByType = {
   "Title Events": {
@@ -63,6 +63,24 @@ const eventsByType = {
         image: fitness,
         description: "Teams of participent battle through epic rounds of challenges, testing their strength, wit, and determination. Only the boldest will claim victory and rise as the legendary champions of fitness!",
         registrationLink: "https://forms.gle/jU2aJDK38f2SHh8R8",
+      },
+    ],
+  },
+  "Special Events": {
+    image: cdc_events,
+    tag: ["All"],
+    events: [
+      {
+        name: "The mighty Avengers",
+        image: avengers,
+        description: "Discover the magic of effective time management and the power of collaboration as your team assembles, tackles challenges and triumphs together. Join forces, overcome challenges and emerge victorious in this extraordinary celebration of synergy. It’s time to Avengers Assemble like never before!",
+        registrationLink: "https://forms.gle/BQEJPFqi4apSVZWp6",
+      },
+      {
+        name: "Takeshi’s castle",
+        image: takeshi,
+        description: "Prepare for the ultimate adventure at Takeshi's Castle! Teams of 5 brave souls will battle through 5 epic rounds of challenges at the Portico venue. With elimination looming at every turn, contestants must rely on their wits and teamwork to survive. But beware: mobile phones are off-limits, and only the boldest teams with at least 2 boys or 2 girls will emerge victorious. Will you conquer Takeshi's Castle and claim glory? Join the quest to find out!",
+        registrationLink: "https://forms.gle/iw7VyP5ACu6BaavG7",
       },
     ],
   },
@@ -141,18 +159,6 @@ const eventsByType = {
         image: finearts3,
         description: "Join us in a celebration of creativity and sustainability at Trash Bin Bonanza, where discarded items get a second chance to shine! Unleash your resourcefulness in this unique event that challenges you to turn trash into treasures, giving a new life and purpose to the overlooked.",
         registrationLink: "https://forms.gle/94MUVb1JUb85c1xQ7",
-      },
-      {
-        name: "Super Suit showoff (solo-fashion)",
-        image: finearts4,
-        description: "Step into the limelight and let your unique style steal the show at the Vogue Vanguard Solo Fashion Extravaganza. This exclusive event calls upon participants to ignite their creativity and celebrate individuality through the art of fashion.",
-        registrationLink: "https://forms.gle/WSpQqpMxJ3UhCqHU7",
-      },
-      {
-        name: "Avenger’s Ensemble (group fashion)",
-        image: finearts5,
-        description: "Hey fashionistas! It's time to unleash the collective style storm and showcase your group's epic fashion saga. Can you turn up the chic-o-meter and bring the laughs? We want to see how well you can slay the runway as a dynamic squad. Strut, pose, and sprinkle in some comical flair – after all, fashion is about having fun too! Gather your glam gang and get ready. This is not just a runway, it's your comedy and couture extravaganza!",
-        registrationLink: "https://forms.gle/E7LmnCd9rvAj8rXv6",
       },
     ],
   },
@@ -255,30 +261,6 @@ const eventsByType = {
         image: editing,
         description: "Transform your ordinary photos into extraordinary visuals. Use your editing skills to create dynamic and eye-catching panoramic panels that tell a captivating story.",
         registrationLink: "https://forms.gle/7hzHZ8RiAzpLZU9A6",
-      },
-    ],
-  },
-  "CDC Club Events": {
-    image: cdc_events,
-    tag: ["All"],
-    events: [
-      {
-        name: "Takeshi’s castle",
-        image: takeshi,
-        description: "Prepare for the ultimate adventure at Takeshi's Castle! Teams of 5 brave souls will battle through 5 epic rounds of challenges at the Portico venue. With elimination looming at every turn, contestants must rely on their wits and teamwork to survive. But beware: mobile phones are off-limits, and only the boldest teams with at least 2 boys or 2 girls will emerge victorious. Will you conquer Takeshi's Castle and claim glory? Join the quest to find out!",
-        registrationLink: "https://forms.gle/iw7VyP5ACu6BaavG7",
-      },
-      {
-        name: "Valorant",
-        image: val,
-        description: "Step into the world of Valorant, where heroes clash in a battle of strategy and skill! Assemble your team of agents, each with their own unique powers, and prepare for heart-pounding action. In this epic comic event, teams will face off in intense matches filled with tactical maneuvers, daring rescues, and explosive showdowns. Will your squad emerge victorious and claim glory on the battlefield? Join the fray and find out!",
-        registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSe0S_XtwM3NjOL1Xiietr1v6G1tLhDvxOL6qZ0JIB4mtY74-w/viewform?usp=sf_link",
-      },
-      {
-        name: "Battlegrounds mobile india (BGMI)",
-        image: bgmi,
-        description: "Prepare for an immersive dive into the high- tech warfields of BGMI, where cutting-edge technology meets multiplayer action. Gear up for an event like no other, as we combine the adrenaline-pumping gameplay of BGMI with futuristic elements that will blow your mind!",
-        registrationLink: "https://forms.gle/8vCP7FiUSCaKgUaAA",
       },
     ],
   },
@@ -390,28 +372,22 @@ const eventsByType = {
     events: [
       {
         name: "Super Suit showoff (solo-fashion)",
-        image: "",
-        description: "",
+        image: finearts4,
+        description: "Step into the limelight and let your unique style steal the show at the Vogue Vanguard Solo Fashion Extravaganza. This exclusive event calls upon participants to ignite their creativity and celebrate individuality through the art of fashion.",
         registrationLink: "https://forms.gle/WSpQqpMxJ3UhCqHU7",
       },
       {
         name: "Avenger’s Ensemble (group fashion)",
-        image: "",
-        description: "",
+        image: finearts5,
+        description: "Hey fashionistas! It's time to unleash the collective style storm and showcase your group's epic fashion saga. Can you turn up the chic-o-meter and bring the laughs? We want to see how well you can slay the runway as a dynamic squad. Strut, pose, and sprinkle in some comical flair – after all, fashion is about having fun too! Gather your glam gang and get ready. This is not just a runway, it's your comedy and couture extravaganza!",
         registrationLink: "https://forms.gle/E7LmnCd9rvAj8rXv6",
       },
     ],
   },
-  "Sports and eSports": {
+  "eSports": {
     image: sports2,
     tag: ["All", "Cultural + fun"],
     events: [
-      {
-        name: "Takeshi’s castle",
-        image: takeshi,
-        description: "Prepare for the ultimate adventure at Takeshi's Castle! Teams of 5 brave souls will battle through 5 epic rounds of challenges at the Portico venue. With elimination looming at every turn, contestants must rely on their wits and teamwork to survive. But beware: mobile phones are off-limits, and only the boldest teams with at least 2 boys or 2 girls will emerge victorious. Will you conquer Takeshi's Castle and claim glory? Join the quest to find out!",
-        registrationLink: "https://forms.gle/iw7VyP5ACu6BaavG7",
-      },
       {
         name: "Valorant",
         image: val,

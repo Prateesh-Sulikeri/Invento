@@ -5,7 +5,7 @@ import FlyInOnScroll from "./FlyInOnScroll";
 import zap from "../../public/images/zap1.png";
 import amazing from "../../public/images/Amazing.png";
 import "./components.css";
-// import pdf from "../../public/pdf/rulebook.pdf";
+import pdf from "../../public/pdf/rulebook.pdf";
 
 const Rulebook = () => {
   const handleDownloadClick = () => {
@@ -62,12 +62,13 @@ const Rulebook = () => {
             {" "}
             {/* Adjusted justify-center for mobile */}
             <FlyInOnScroll>
-              <button
-                onClick={handleDownloadClick}
-                className={`mr-4 py-2 px-4 bg-sky-100 rounded-lg border-2  font-oregano border-purple-500 focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105`}
-              >
+            <a
+                href={pdf}
+                target="_blank"
+                className={`mr-4 py-2 px-4 bg-blue-100 rounded-lg border font-semibold border-blue-400 font-oregano focus:outline-none flex items-center justify-center transition-transform duration-200 transform hover:scale-105 hover:font-semibold`}
+                >
                 Download Rulebook
-              </button>
+              </a>
             </FlyInOnScroll>
           </div>
         </div>
