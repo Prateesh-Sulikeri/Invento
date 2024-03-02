@@ -4,6 +4,9 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import FlyInOnScroll from "./FlyInOnScroll";
 
 const Footer = () => {
+  function showAlert() {
+    alert("Coming soon!!");
+}
   return (
     <footer className="px-4 py-10 md:py-20 bg-gray-800 text-white " id="footer">
       <FlyInOnScroll>
@@ -30,17 +33,17 @@ const Footer = () => {
                   <h3 className="text-2xl  font-bangers mb-4 pr-4">Visual Media</h3>
                   <ul className="hi">
                     <li><a href="https://www.instagram.com/p/C4Azo0vBhw0/?igsh=MTgxdWhkYnM0Y2FsYw==" target="_blank" className="text-blue-300 hover:text-blue-400 font-oregano">Official Poster</a></li>
-                    <li><a href="#" className="text-blue-300 hover:text-blue-400 font-oregano">Promo Video</a></li>
-                    <li><a href="#" className="text-blue-300 hover:text-blue-400 font-oregano">Others</a></li>
+                    <li><a href="#" onClick={showAlert} className="text-blue-300 hover:text-blue-400 font-oregano">Promo Video</a></li>
+                    <li><a href="#" onClick={showAlert} className="text-blue-300 hover:text-blue-400 font-oregano">Others</a></li>
                   </ul>
                 </div>
 
                 <div>
                   <h3 className="text-2xl font-bangers mb-4 pr-2">Social Media</h3>
                   <ul>
-                    <li><a href="https://www.instagram.com/invento_2k24?igsh=MjdiOHU1amE5ZjBj" target="_blank" className="text-blue-300 hover:text-blue-400 flex items-center font-oregano"><FaInstagram className="mr-2" /> Instagram</a></li>
-                    <li><a href="#" className="text-blue-300  hover:text-blue-400 flex items-center font-oregano"><FaFacebook className="mr-2" /> Facebook</a></li>
-                    <li><a href="#" className="text-blue-300 hover:text-blue-400 flex items-center font-oregano"><FaYoutube className="mr-2" /> Youtube</a></li>
+                  <li><a href="https://www.instagram.com/invento_2k24?igsh=MjdiOHU1amE5ZjBj" target="_blank" className="text-blue-300 hover:text-blue-400 flex items-center font-oregano"><FaInstagram className="mr-2" /> Instagram</a></li>
+                    <li><a href="https://www.facebook.com/klescetmediaclub" target="_blank" className="text-blue-300  hover:text-blue-400 flex items-center font-oregano"><FaFacebook className="mr-2" /> Facebook</a></li>
+                    <li><a href="https://youtube.com/@klescetmedia?si=yedxO7kGc_EtflMl" target="_blank" className="text-blue-300 hover:text-blue-400 flex items-center font-oregano"><FaYoutube className="mr-2" /> Youtube</a></li>
                   </ul>
                 </div>
               </div>
