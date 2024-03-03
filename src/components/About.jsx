@@ -1,6 +1,5 @@
 import React from "react";
 import bg from "../../public/images/bg_about.jpg";
-import hero from "../../public/images/luffy.png";
 import FlyInOnScroll from "./FlyInOnScroll";
 
 const About = () => {
@@ -12,7 +11,7 @@ const About = () => {
     >
       <div className="w-1/2 md:px-8">
         <FlyInOnScroll>
-          <h2 className="text-5xl md:text-6xl mb font-bangers">About </h2>
+          <h2 className="text-5xl md:text-6xl mb font-bangers">About</h2>
         </FlyInOnScroll>
         <FlyInOnScroll>
           <p className="text-lg md:text-xl py-4 md:py-10 font-oregano">

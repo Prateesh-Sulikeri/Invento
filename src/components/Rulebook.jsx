@@ -5,7 +5,7 @@ import FlyInOnScroll from "./FlyInOnScroll";
 import zap from "../../public/images/zap1.png";
 import amazing from "../../public/images/Amazing.png";
 import "./components.css";
-import pdf from "../../public/pdf/rulebook1.pdf";
+import pdf from "../../public/pdf/rulebook.pdf";
 
 const Rulebook = () => {
   const handleDownloadClick = () => {
@@ -19,7 +19,8 @@ const Rulebook = () => {
         <img
           src={amazing}
           alt="Amazing"
-          className="absolute top-0 left-0 mt-4 ml-4 wiggle-animate amazing-image hidden md:block"
+          className="absolute top-0 left-0 mt-4 ml-4 wiggle-animate amazing-image hidden md:block w-100"
+          style={{width: "100px"}}
         />
         <div className="md:w-1/2 md:mb-0 md:flex md:items-center relative">
           <FlyInOnScroll>

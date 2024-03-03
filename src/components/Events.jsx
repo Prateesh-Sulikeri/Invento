@@ -2,8 +2,10 @@ import React from "react";
 import eventsByType from "../eventData";
 import { Link } from "react-router-dom";
 import bg from "../../public/images/bg_events.png";
-import buttonImage from "../../public/images/button.png"; // Import button image
+import buttonImage from "../../public/images/button.png"; 
+import cash from "../../public/images/cash.png"; 
 import FlyInOnScroll from "./FlyInOnScroll";
+import "./components.css";
 
 const Events = () => {
   const allEvents = Object.entries(eventsByType).map(([eventType, events]) => (
@@ -61,6 +63,17 @@ const Events = () => {
           Explore The Events
         </h2>
       </FlyInOnScroll>
+      
+      <div className="flex justify-center items-center">
+        <FlyInOnScroll>
+          <img 
+            src={cash}
+            alt="cash prize"
+            className="wiggle-animate amazing-image"
+          />
+        </FlyInOnScroll>
+      </div>
+
       <FlyInOnScroll>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center">
           {allEvents}

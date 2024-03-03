@@ -93,14 +93,13 @@
 
 /* Apply animation to .wiggle-animate class */
 .wiggle-animate {
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite; /* Make the animation infinite */
   animation-timing-function: ease-in-out; /* Smooth animation */
 }
 
 /* Apply animation to .amazing-image */
 .amazing-image {
-  width: 100px; /* Adjust width as needed */
   animation-name: wiggle;
 }
 

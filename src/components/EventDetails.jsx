@@ -7,7 +7,7 @@ import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
 import "./eventDetails.css";
 import FlyInOnScroll from "./FlyInOnScroll";
-import pdf from "../../public/pdf/rulebook1.pdf"; // Commented out the PDF import
+import pdf from "../../public/pdf/rulebook.pdf"; // Commented out the PDF import
 
 function EventDetails({ eventsByType }) {
   const { eventType } = useParams();

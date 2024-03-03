@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Left section */}
-            <div className="col-span-1 pl-14 flex justify-center items-center md:items-start flex-col">
+            <div className="col-span-1  flex justify-center items-center md:items-start flex-col">
               <img src={hero} alt="INVENTO" className="w-32 mb-4 justify-centre items-center md:mx-0" />
               <p className="text-2xl text-center font-bangers md:text-left" style={{ WebkitTextStrokeWidth: '0.5px', WebkitTextStrokeColor: 'green' }} >Step into Comicopia</p>
             </div>
