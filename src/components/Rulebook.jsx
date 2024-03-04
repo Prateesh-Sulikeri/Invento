@@ -5,7 +5,7 @@ import FlyInOnScroll from "./FlyInOnScroll";
 import zap from "../../public/images/zap1.png";
 import amazing from "../../public/images/Amazing.png";
 import "./components.css";
-import pdf from "../../public/pdf/rulebook1.pdf";
+import pdf from "../../public/pdf/rulebook.pdf";
 
 const Rulebook = () => {
   const handleDownloadClick = () => {
