@@ -198,7 +198,7 @@ const eventsByType = {
       },
     ],
   },
-  "Melodia Events": {
+  "Music Events": {
     image: melodia_events,
     tag: ["All", "Cultural + fun"],
     events: [
@@ -264,7 +264,7 @@ const eventsByType = {
       },
     ],
   },
-  "Mask Club Events": {
+  "Dance Events": {
     image: mask_events,
     tag: ["All", "Cultural + fun"],
     events: [
