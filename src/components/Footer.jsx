@@ -4,9 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import FlyInOnScroll from "./FlyInOnScroll";
 
 const Footer = () => {
-  function showAlert() {
-    alert("Coming soon!!");
-}
+  
   return (
     <footer className="px-4 py-10 md:py-20 bg-gray-800 text-white " id="footer">
       <FlyInOnScroll>
@@ -35,8 +33,8 @@ const Footer = () => {
                   <h3 className="text-2xl  font-bangers mb-4 pr-4">Visual Media</h3>
                   <ul className="hi">
                     <li><a href="https://www.instagram.com/p/C4Azo0vBhw0/?igsh=MTgxdWhkYnM0Y2FsYw==" target="_blank" className="text-blue-300 hover:text-blue-400 font-oregano">Official Poster</a></li>
-                    <li><a href="#" onClick={showAlert} className="text-blue-300 hover:text-blue-400 font-oregano">Promo Video</a></li>
-                    <li><a href="#" onClick={showAlert} className="text-blue-300 hover:text-blue-400 font-oregano">Others</a></li>
+                    <li><a href="https://www.instagram.com/reel/C4NBYs8qlZN/?igsh=MTN0emlhMWc1ZHJycA%3D%3D" target="_blank" className="text-blue-300 hover:text-blue-400 font-oregano">Promo Video</a></li>
+                    <li><a href="https://www.instagram.com/invento_2k24/" target="_blank" className="text-blue-300 hover:text-blue-400 font-oregano">Others</a></li>
                   </ul>
                 </div>
 
