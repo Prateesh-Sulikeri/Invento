@@ -84,7 +84,7 @@ const eventsByType = {
       },
     ],
   },
-  "HR Events": {
+  "HR (Debate and Mock-Press) Events": {
     image: hr,
     tag: ["All"],
     events: [
